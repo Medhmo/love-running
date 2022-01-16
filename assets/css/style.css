@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -9,16 +9,17 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a; 
+    color: #3a3a3a;
 }
 
 /* Heading and Logos */
 
-h1 , h2 {
-    font-family: Oswald , sans-serif;
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525;
+    color: #252525;
 }
 
 #logo {
@@ -34,7 +35,8 @@ h1 , h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -46,7 +48,7 @@ h1 , h2 {
 
 #menu a {
     text-decoration: none;
-    color:  inherit;
+    color: inherit;
 }
 
 #menu a:hover {
@@ -67,16 +69,17 @@ h1 , h2 {
 }
 
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
-#hero-image{ 
+#hero-image {
     height: 600px;
     width: 100%;
-    background:url(../images/hero-image.webp) no-repeat center center ;
+    background: url(../images/hero-image.webp) no-repeat center center;
     /* animates zoom level on loading page */
-    animation-name:  hero-zoom;
+    animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -87,12 +90,13 @@ h1 , h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
 
-#cover-text{
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -103,7 +107,7 @@ h1 , h2 {
 
     padding-top: 40 px;
     padding-left: 10px;
-    
+
     background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
@@ -114,28 +118,28 @@ h1 , h2 {
 
 /* club ethos */
 
-#club-ethos{
+#club-ethos {
     height: 600px;
 }
 
 #left-about {
     padding-top: 30px;
     width: 33%;
-    float: left;  
+    float: left;
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about{
+#center-about {
     width: 33%;
     margin: 0 auto;
 }
 
-hr{
+hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
@@ -165,13 +169,13 @@ hr{
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 50px 0;
     font-size: 200%;
 }
 
-#circle-container{
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -188,3 +192,13 @@ hr{
     border-radius: 50%;
 }
 
+/* event times */
+
+#times {
+       background-image: url("../images/times-background.webp"); 
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       width: 100%;
+       overflow: hidden;
+}
